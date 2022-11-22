@@ -33,3 +33,32 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#bitcoins-list {
+    text-align: center;
+    border: 3px solid black;
+}
+
+#ssns-list {
+    text-align: center;
+    border: 3px solid black;
+}
+
+#credit-card-list {
+    text-align: center;
+    border: 3px solid black;
+}
+
+#animals-list {
+    border: 3px solid black;
+    text-align: center;
+}
+
+.items-container {
+    display: flex;
+    /* grid-template-columns: repeat(50px, auto);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 20px; */
+    gap: 20px;
+    text-align: center;
+}
